@@ -10,6 +10,6 @@ var Student = /** @class */ (function () {
 function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
-var user = new Student("Camiel", "J.P..", "Luijkx");
+var user = new Student("Camiel", "J.P.", "Luijkx");
 document.body.innerHTML = greeter(user);
 //# sourceMappingURL=library.js.map
